@@ -1,0 +1,31 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+div{
+    text-align: center;
+    
+}
+.btn{
+    padding: 10px;
+    text-align:center;
+    font-size: large;
+    border-radius: 5px;
+    border-color: rgb(51, 0, 255);
+    background-color:aliceblue;
+    transition: 0.5ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgba(143, 255, 167, 0.684) ;
+    font-weight:bold;
+}
+.container{
+    border: 2px solid black;
+    margin-left:400px;
+    justify-content: center;
+    width: 500px;
+    padding: 10px;
+}
