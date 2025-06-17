@@ -1,6 +1,6 @@
 let count=0;
 document.getElementById("incrse").onclick=function(){
-    count=count+2;
+    count=count+1;
     document.getElementById("counter").textContent=count;
 }
 document.getElementById("dcrse").onclick=function(){
